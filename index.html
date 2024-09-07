@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--idioma da pág. colocar pt-br-->
+<head>          <!-- informaçoes p/ o navegador chamdo de metadados, ate a linha 7 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rocha Acessoria jurídica</title>     <!---- titulo da aba navegador -->
+</head>
+<body>        <!--corpo da pagina mostrar para o usuario-->
+    <header>    <!--cabeçalho-->
+        <h1>Rocha Acessoria jurídica</h1>
+        <h2>Criminal, Empresarial,Pensionista,Cível</h2>
+    </header>
+    <main> 
+        <section>
+            <input type="text" placeholder="Digite o nome do Advogado">
+            <button onclick="pesquisar()">Pesquisar</button> 
+        </section>
+        <section class="resultados-pSesquisa" 
+        id="resultados-pesquisa">
+        </section> 
+    </main>  <!--fechamento da Tag-->
+    <footer>  <!--insere rodapé-->
+        <p>     <!--insere paragrafo-->
+            2024 - Advocacia e Consultoria jurídica . Todos direitos reservados</p>   <!--insere paragrafo-->
+        <p>Entre em contato pelo Email: rochaadvogados@gmail.com</p>
+    </footer>   <!--fechamento do rodapé-->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+
+</body>       <!--corpo da pagina-->
+</html>
